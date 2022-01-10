@@ -1,0 +1,44 @@
+body{
+    background:black;
+}
+img{
+    width: 400px;
+    height: 300px;
+}
+.texto {
+    position: absolute;
+    font-size: 40px;
+    color:rgb(0, 0, 0);
+    text-align: center;
+    top: 30px;
+    width: 250px;
+    line-height: 30px;
+    height: 30px;
+    font-family:'Times New Roman', Times, serif;
+}
+
+li{
+    font-size: 20px;
+    height:35px;
+    box-sizing: border-box;
+    color: rgb(41, 52, 202);
+
+}
+
+a{
+    font-size: 30px;
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.insta{
+    list-style-image: url("./Imagens/Insta.png");
+}
+
+.twitter{
+    list-style-image: url("./Imagens/Twitter.png");
+}
+
+.youtube{
+    list-style-image: url("./Imagens/Youtube.png");
+}

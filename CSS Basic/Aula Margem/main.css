@@ -1,0 +1,13 @@
+
+#base{
+    height:10px;
+    background-color: red;
+    padding-bottom: 10px;
+    
+}
+
+#conteudo{
+   margin-top: 10px;
+    background-color: rgb(23, 117, 204);
+    color:white ;
+}
