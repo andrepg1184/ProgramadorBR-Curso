@@ -16,7 +16,51 @@ header{
     padding: 10px;
 }
 
+section{
+    padding: 20px;
+    background-image: url(../img/images/people.jpg);
+    overflow:hidden;
+    background-size: cover;
+}
 .container{
     margin:auto;
     max-width: 1000px;
+}
+
+h2{
+    font-size: 18px;
+}
+.formContainer{
+    background-color:#FFFFFFBB;
+    padding: 20px;
+    max-width: 240px;
+    float: right;
+}
+.mb{
+    margin-bottom: 20px;
+}
+
+input,select{
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: none;
+    margin-bottom: 10px;
+}
+
+input[type="submit"]{
+    color: white;
+    background:rgb(25, 184, 233);
+    font-weight: bold;
+}
+
+select{
+     appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+
+    background-image: url(../img/images/arrow.jpg);
+    background-repeat: no-repeat;
+    background-position-x:calc(100% - 10px);
+    background-position-y:center ;
 }
