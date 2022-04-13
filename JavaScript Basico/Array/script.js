@@ -1,14 +1,9 @@
-var numero = 5;
+var alunos = ["Jose","ana","andre","stephany","pedro"];
 
-for(var vez = 0; vez <= numero; vez++){
-        console.log(`"Executando for pela ${vez} vez`)
+for (var i = 0; i < alunos.length; i++){
+    console.log(alunos[i])
 }
 
-console.log('Fim do Codigo');
-
-while(numero > 10){
-    console.log("Numero"+ numero); 
-
+for (var i in alunos){
+    console.log(alunos[i])
 }
-
-console.log("fim")
